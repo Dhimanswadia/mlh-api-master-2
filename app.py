@@ -2,7 +2,7 @@
 from flask import Flask, jsonify
 from bs4 import BeautifulSoup
 import requests, time
-import urllib
+#import urllib
 
 app = Flask(__name__)
 
