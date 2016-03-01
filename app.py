@@ -2,6 +2,7 @@
 from flask import Flask, jsonify
 from bs4 import BeautifulSoup
 import requests, time
+import urllib
 
 
 app = Flask(__name__)
@@ -98,7 +99,7 @@ def search_by_key(mlh_event, key_):
                 if urllib.unquote(mlh_event.lower()) == i.lower():
                     return eu_event[i][key_]
 
-  app.run()
-# if __name__ == '__main__':
-#     app.run(debug=True, port=5001
-#     )
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5001
+    )
