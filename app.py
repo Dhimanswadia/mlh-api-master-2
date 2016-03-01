@@ -99,6 +99,6 @@ def search_by_key(mlh_event, key_):
                     return eu_event[i][key_]
 
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5001
-    )
+# if __name__ == '__main__':
+#     app.run(debug=True, port=5001
+#     )
